@@ -1,2 +1,2 @@
-# we have decided to make all data (code and dataset) publicly available only after the acceptance of our paper. 
+# We have decided to make all data (code and dataset) publicly available only after the acceptance of our paper. 
 # This is to avoid potential issues if the data is accessible during the revision process, as others could copy and publish it.
