@@ -10,7 +10,7 @@ import time
 from sklearn.metrics import precision_recall_fscore_support
 
 # Read txt file
-df_microstates_tuab = loader.load_txt('C:/features_microstates_tuab.txt')
+df_microstates_tuab = loader.load_txt('C:/features_microstates.txt')
 
 # Parsing a pre-loaded numpy array
 X, Y = p.parse_loader(df_microstates_tuab)
