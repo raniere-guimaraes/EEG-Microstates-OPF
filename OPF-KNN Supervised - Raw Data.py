@@ -32,7 +32,6 @@ distances = ["additive_symmetric","average_euclidean","bhattacharyya","bray_curt
 list_all_matrix = []
 
 # All metrics about distances
-
 list_acc = []
 list_distance = []
 list_t_total_train = []
