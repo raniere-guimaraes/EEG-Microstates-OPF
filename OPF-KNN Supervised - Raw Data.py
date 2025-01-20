@@ -1,6 +1,6 @@
 # Import libraries
-import numpy as np
 import pandas as pd
+import numpy as np
 import opfython.math.general as g
 import opfython.stream.parser as p
 import opfython.stream.splitter as s
