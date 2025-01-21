@@ -13,7 +13,7 @@ from sklearn.preprocessing import MinMaxScaler
 from mpl_toolkits.mplot3d import Axes3D
 import time
 
-# Read txt file
+# Read .txt file
 df_tuab = loader.load_txt('C:/microstates_features.txt')
 
 # Separeting data and label
