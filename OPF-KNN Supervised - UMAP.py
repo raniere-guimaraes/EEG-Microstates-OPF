@@ -115,7 +115,7 @@ for i in range (len(distances)):
     # Precision, Recall and F-score
     prec_rec_fs = precision_recall_fscore_support(Y_test, preds, average='macro')
     list_prec_rec_fs.append(prec_rec_fs)
-
+    
 # Create full matrix from all lists
 matrix_all_values = np.column_stack((list_distance, list_acc, list_t_total_train, list_t_total_pred, list_prec_rec_fs))
 list_matrix_all_values.append(matrix_all_values)
@@ -125,7 +125,6 @@ list_all_matrix.append(list_matrix_all_values[0])
 
 # Number of repetitions counter 
 print('Number of matrices: ', len(list_all_matrix))
-
 # List all values accuracy
 list_accuracy = [[] for i in range(len(list_distance))]
 for i in range(len(list_distance)):
