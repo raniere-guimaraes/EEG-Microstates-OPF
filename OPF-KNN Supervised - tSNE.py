@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import time
 
 # Read .txt file
-df_tuab = loader.load_txt('C:/microstates_features.txt')
+df_microstates = loader.load_txt('C:/microstates_features.txt')
 
 # Separeting data and label
 features = df_tuab[:,2:322]
@@ -65,7 +65,7 @@ plt.legend(numpoints=1, ncol=1, fontsize=8, bbox_to_anchor=(1.0, 1.0))
 plt.show()
 
 # Create input array for OPF
-tuab_tsne_opf = np.stack((df_tuab[:,0], df_tuab[:,1], scaled_tsne_tuab[:,0], scaled_tsne_tuab[:,1], scaled_tsne_tuab[:,2]), axis = 1)
+tuab_tsne_opf = np.stack((df_microstates[:,0], df_microstates[:,1], scaled_tsne_tuab[:,0], scaled_tsne_tuab[:,1], scaled_tsne_tuab[:,2]), axis = 1)
 
 # Parsing a pre-loaded numpy array
 X, Y = p.parse_loader(tuab_tsne_opf)
