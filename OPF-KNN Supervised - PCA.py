@@ -13,7 +13,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import precision_recall_fscore_support
 from mpl_toolkits.mplot3d import Axes3D
 
-# Read txt file
+# Read .txt file
 df_microstates = loader.load_txt('C:/features_microstates.txt')
 
 # Separeting data and label
